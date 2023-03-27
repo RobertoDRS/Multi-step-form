@@ -1,0 +1,47 @@
+.form4Div{
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 10px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form4Div span{
+    font-size: 17px;
+    color: hsl(231, 11%, 63%);
+}
+
+.form4Div-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form4Div-sec button{
+    text-align: left;
+    background-color: hsl(217, 100%, 97%);
+    border: none;
+    text-decoration: underline;
+    color: hsl(231, 11%, 63%);
+    margin-top: 0.5rem;
+    font-size: 17px;
+}
+
+.form4Div-sec button:hover{
+    color:hsl(243, 100%, 62%);
+    cursor: pointer;
+}
+
+.form4Div-sec div{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin-div{
+    margin-bottom: 80px;
+}
+
+.margin-div span{
+    font-size: 17px;
+}

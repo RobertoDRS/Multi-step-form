@@ -1,0 +1,10 @@
+main{
+    background-color: hsl(231, 100%, 99%);
+    width: 70%;
+    height: 80%;
+    padding: 1rem 0 1rem 1rem;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+}

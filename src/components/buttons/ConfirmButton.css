@@ -1,0 +1,16 @@
+button#confirmBtn{
+    background-color: hsl(243, 100%, 62%);
+    color: hsl(0, 0%, 100%);
+    width: 150px;
+    padding: .9rem;
+    border-radius: 10px;
+    border: 1px solid hsl(213, 96%, 18%);
+    font-weight: bold;
+    align-self:flex-end;
+    font-size: 14px;
+}
+
+button#confirmBtn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

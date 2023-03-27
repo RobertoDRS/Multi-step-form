@@ -1,0 +1,46 @@
+.checkAddOns{
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.checkAddOns span{
+    font-size: 17px;
+}
+
+.checkAddOns input[type="checkbox"]{
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: 1px solid hsl(231, 11%, 63%);
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    align-self: center;
+}
+.checkAddOns input[type="checkbox"]:checked{
+    background-color: hsl(243, 100%, 62%);
+    background-image: url('../../assets/images/icon-checkmark.svg');
+    background-repeat: no-repeat;
+    background-size:13px;
+    background-position: center;
+    border: 1px solid hsl(243, 100%, 62%);
+}
+
+.checkAddOns:hover{
+    border: 1px solid hsl(243, 100%, 62%);
+    cursor: pointer;
+}
+
+.checkAddOns-sec{
+    display: flex;
+    gap: 1rem;
+}
+
+.checkAddOns-tert{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}

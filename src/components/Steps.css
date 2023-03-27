@@ -1,0 +1,12 @@
+aside.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+
+    background-image: url('../assets/images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: center;
+}

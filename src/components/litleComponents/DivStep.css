@@ -1,0 +1,28 @@
+.divStep{
+    display: flex;
+    gap: 1rem;
+}
+
+span.number{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    padding: .5rem .8rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.divStep-sec{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    text-transform: uppercase;
+}
+
+.divStep-sec h3{
+    color: hsl(229, 24%, 87%);
+    font-weight: normal;
+}
+
+.divStep-sec span{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
