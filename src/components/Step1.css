@@ -18,7 +18,7 @@
     font-weight:600;
     border:1px solid hsl(231, 11%, 63%);
     color: hsl(213, 96%, 18%);
-    margin-bottom: 1rem;
+    margin-bottom: 0.85rem;
 }
 
 #form1 input::placeholder{

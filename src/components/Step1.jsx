@@ -4,12 +4,14 @@ import Header from './litleComponents/Header'
 import NextButton from './buttons/NextButton'
 
  const Step1 = () => {
+
+
     return (
         <div className='stepDiv'>
 
             <Header title="Informações pessoais" text="Por favor fornecer seu nome, endereço de e-mail e número de telefone."/>
 
-            <form id="form1" action="">
+            <form id="form1" action="" onSubmit={(e) => e.preventDefault}>
                 <label htmlFor="name">Nome</label>
                 <input id='name' type="text" placeholder='Digite seu nome' name='name'/>
 

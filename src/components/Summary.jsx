@@ -34,10 +34,10 @@ import ConfirmButton from './buttons/ConfirmButton'
                     </div>
 
                 </div>
-                    <div className='form4Div-sec margin-div' style={{padding:'1.2rem'}}>
-                        <span style={{color:'hsl(231, 11%, 63%)'}}>Total(por ano)</span>
-                        <span style={{fontSize: '1.3rem', color:'hsl(243, 100%, 62%)', fontWeight:'bold'}}>12</span>
-                    </div>
+                <div className='form4Div-sec margin-div' style={{padding:'1.2rem'}}>
+                    <span style={{color:'hsl(231, 11%, 63%)'}}>Total(por ano)</span>
+                    <span style={{fontSize: '1.3rem', color:'hsl(243, 100%, 62%)', fontWeight:'bold'}}>12</span>
+                </div>
 
                 <div className='divButtons'>
                     <BackButton/>
