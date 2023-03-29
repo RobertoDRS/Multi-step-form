@@ -11,7 +11,7 @@ import CheckAddOns from './litleComponents/CheckAddOns'
 
             <Header title="Escolha os adicionais" text="Os adicionais ajudam a melhorar sua experiência de jogo."/>
 
-            <form id="form3" action="">
+            <form id="form3" action="" onSubmit={(e) => e.preventDefault}>
                 <div className='form3Checks'>
                     <CheckAddOns title="Serviço online" text="Acesso a jogos multiplayer" price={1}/>
                     <CheckAddOns title="Armazenamento maior" text="Extra 1TB de armazenamento em nuvem" price={2}/>
