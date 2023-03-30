@@ -49,6 +49,26 @@ span.spanTotal{
     font-size: 1.3rem
 }
 
+/** Desktop **/
+@media only screen and (min-width: 1700px) and (max-width: 1920px){
+    .marginDiv-1{
+        margin-bottom: 10.5rem;
+    }
+
+    .marginDiv-2{
+        margin-bottom: 12.9rem;
+    }
+
+    .marginDiv-3{
+        margin-bottom: 15.4rem;
+    }
+
+    .marginDiv-4{
+        margin-bottom: 17.8rem;
+    }
+}
+
+
 /** Mobile **/
 
 @media only screen and (min-width: 375px) and (max-width: 765px) {

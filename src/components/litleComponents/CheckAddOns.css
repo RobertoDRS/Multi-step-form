@@ -46,6 +46,18 @@
     gap: 0.3rem;
 }
 
+@media only screen and (min-width: 1800px) and (max-width: 1920px){
+    .checkAddOns{
+        padding: 1.9rem;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1800px){
+    .checkAddOns{
+        padding:2rem;
+    }
+}
+
 /** Mobile **/
 
 @media only screen and (min-width: 375px) and (max-width: 765px) {

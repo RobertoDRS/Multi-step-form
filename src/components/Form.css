@@ -8,6 +8,21 @@ main{
     grid-template-columns: 30% 70%;
 }
 
+/** Desktop **/
+@media only screen and (min-width: 1750px) and (max-width: 1920px){
+    main{
+        width: 75%;
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1750px){
+    main{
+        width: 75%;
+        height: 70%;
+    }
+}
+
 
 /** Mobile **/
 
