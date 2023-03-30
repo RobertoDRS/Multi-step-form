@@ -20,6 +20,7 @@
     border-radius: 4px;
     align-self: center;
 }
+
 .checkAddOns input[type="checkbox"]:checked{
     background-color: hsl(243, 100%, 62%);
     background-image: url('../../assets/images/icon-checkmark.svg');
@@ -43,4 +44,39 @@
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+}
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+
+    .checkAddOns-sec{
+       gap: 0.8rem;
+    }
+
+    .checkAddOns input[type="checkbox"]{
+        width: 15px;
+        height: 15px;
+    }
+
+    .checkAddOns span{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 535px){
+    .checkAddOns-tert{
+        width: 90%;
+    }
+
+    .checkAddOns-spanPrice{
+        width: 35%;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .checkAddOns span{
+        font-size: 14px;
+    }
 }

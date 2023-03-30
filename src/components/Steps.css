@@ -10,3 +10,18 @@ aside.steps{
     background-size:cover;
     background-position-y: center;
 }
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+    aside.steps{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        background-image: url('../assets/images/bg-sidebar-mobile.svg');
+        background-size:cover;
+        gap: 0rem;
+        border-radius: 0;
+        padding: 2rem 0 7rem 0;
+    }
+}

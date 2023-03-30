@@ -32,3 +32,19 @@ span.bgAzul{
     background-color: hsl(206, 94%, 87%);
     color: hsl(213, 96%, 18%);
 }
+
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+
+   
+
+    .divStep-sec h3{
+        display: none;
+    }
+    
+    .divStep-sec span{
+        display: none;
+    }
+}

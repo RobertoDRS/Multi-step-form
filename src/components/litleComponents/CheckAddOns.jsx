@@ -9,7 +9,6 @@ const CheckAdicionais = ({title, text, price}) => {
     
     const [formState, dispatch] = useContext(FormContext)
     
-    console.log(formState)
 
     const id = title === "Serviço online" ? "onlineService": title === "Armazenamento maior" ? "largerStorage":
     "customizableProfile"
@@ -32,7 +31,7 @@ const CheckAdicionais = ({title, text, price}) => {
                     </div>
                 </div>
 
-                <span>
+                <span className='checkAddOns-spanPrice'>
                     {priceFormatted}
                 </span>
             </label>

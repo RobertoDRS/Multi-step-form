@@ -45,3 +45,22 @@
     width: 20px;
     background-color: white;
 }
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+    .form2Cards{
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    #form2 label{
+        font-size: 15px;
+    }
+
+    label.labelBilling{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+}

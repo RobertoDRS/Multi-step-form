@@ -17,8 +17,6 @@ import { FormContext } from '../context/form'
     (formState.onlineService && formState.customizableProfile || formState.onlineService && formState.largerStorage ||
     formState.customizableProfile && formState.largerStorage) ? 'marginDiv-2': (formState.customizableProfile || formState.onlineService || formState.largerStorage) ? 'marginDiv-3': 'marginDiv-4'
 
-    console.log(formState.billing)
-
     return (
         <div className='stepDiv'>
 
@@ -61,7 +59,7 @@ import { FormContext } from '../context/form'
                 </div>
                 <div className={`form4Div-sec ${marginDiv}`} style={{padding:'1.2rem'}}>
                     <span style={{color:'hsl(231, 11%, 63%)'}}>Total({formState.billing === 'Monthly' ? 'por mês': 'por ano' })</span>
-                    <span style={{fontSize: '1.3rem', color:'hsl(243, 100%, 62%)', fontWeight:'bold'}}>
+                    <span className='spanTotal' style={{color:'hsl(243, 100%, 62%)', fontWeight:'bold'}}>
                         {formState.billing === 'Monthly' ? `R$ ${formState.totalPrice}/mês` : `R$ ${formState.totalPrice * 12}/ano`}
                     </span>
                 </div>

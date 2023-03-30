@@ -4,3 +4,13 @@
     gap: 1.2rem;
     margin-bottom: 4.2rem;
 }
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+
+    .form3Checks{
+        gap: 0.8rem;
+        margin-bottom: 0;
+    }
+}

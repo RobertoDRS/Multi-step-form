@@ -41,7 +41,7 @@ import { FormContext } from '../context/form'
     return (
         <main>
             <Steps/>
-            <section>
+            <section className='sectionStep'>
                 {step}
             </section>
         </main>

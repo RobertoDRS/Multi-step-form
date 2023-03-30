@@ -13,3 +13,15 @@ header p{
     font-size:17px;
     color: hsl(231, 11%, 63%);
 }
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+    header h2{
+        font-size:1.6rem;
+    }
+
+    header p{
+        font-size:15px;
+    }
+}

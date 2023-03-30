@@ -7,8 +7,6 @@ const CardPlan = ({img, title, price}) => {
 
     const [formState, dispatch] = useContext(FormContext)
 
-    console.log(formState)
-
     const checked = formState.plan === title ? true: false
 
     const priceFormatted = formState.billing === 'Monthly' ? `R$ ${price}/mês`: `R$ ${price*12}/ano`

@@ -28,3 +28,33 @@ div.checked, label.checked{
     border: 1px solid hsl(243, 100%, 62%);
     background-color: hsl(217, 100%, 97%);
 }
+
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
+    .App{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .stepDiv{
+        background-color: hsl(231, 100%, 99%);
+        border-radius: 10px;
+        width: 90%;
+        margin-left: 5%;
+        position: absolute;
+        top: 100px;
+        padding: 2.4rem 1.8rem;
+        height: 80%;
+    }
+
+
+    .divButtons{
+        width: 100vw;
+        background-color: hsl(231, 100%, 99%);
+        padding: 1rem;
+        position: absolute;
+        bottom: -200px;
+        left: -5.5%;
+    }
+}
