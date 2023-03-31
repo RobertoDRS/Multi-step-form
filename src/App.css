@@ -39,11 +39,22 @@ div.checked, label.checked{
     }
 }
 
-@media only screen and (min-width: 765px) and (max-width: 1274px){
+@media only screen and (min-width: 1004px) and (max-width: 1274px){
     p, span, h3{
         font-size: 0.62rem;
     }
+
+    .stepDiv{
+        gap: 1rem;
+    }
 }
+
+@media only screen and (min-width: 765px) and (max-width: 1004px){
+    .stepDiv{
+        gap: 0.5rem;
+    }
+}
+
 
 /** Mobile **/
 
