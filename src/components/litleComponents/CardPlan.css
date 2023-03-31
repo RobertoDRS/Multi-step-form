@@ -33,25 +33,23 @@ div.cardPlan img{
     font-size: 17px;
 }
 
-/** Mobile **/
+/** Desktop **/
 
-@media only screen and (min-width: 375px) and (max-width: 765px) {
+@media only screen and (min-width: 375px) and (max-width: 1274px){
+    .divSec-cardPlan span{
+        font-size: 15px;
+    }
     .cardPlan{
         width: 100%;
         padding: 1.1rem;
     }
-
     .cardPlan label{
         display: flex;
         gap: 1rem;
         align-items: center;
     }
-
+    
     .divSec-cardPlan{
         margin-top: 0px;
-    }
-
-    .divSec-cardPlan span{
-        font-size: 15px;
     }
 }

@@ -14,7 +14,7 @@ import { FormContext } from '../context/form'
     return (
         <div className='stepDiv'>
 
-            <Header title="Informações pessoais" text="Por favor, fornecer seu nome, endereço de e-mail e número de telefone."/>
+            <Header title="Informações pessoais" text="Forneça seu nome, endereço de e-mail e número de telefone."/>
 
             <form id="form1" action="" onSubmit={(e) => e.preventDefault}>
                 <label htmlFor="name">Nome</label>

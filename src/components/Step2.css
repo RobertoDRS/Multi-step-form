@@ -53,18 +53,21 @@
     }
 }
 
-/** Mobile **/
-
-@media only screen and (min-width: 375px) and (max-width: 765px) {
+@media only screen and (min-width: 375px) and (max-width: 1274px){
+    #form2 label{
+        font-size: 15px;
+    }
+    
     .form2Cards{
         flex-direction: column;
         gap: 0.8rem;
         margin-bottom: 20px;
     }
+}
 
-    #form2 label{
-        font-size: 15px;
-    }
+/** Mobile **/
+
+@media only screen and (min-width: 375px) and (max-width: 765px) {
 
     label.labelBilling{
         color: hsl(213, 96%, 18%);

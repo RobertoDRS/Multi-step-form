@@ -18,6 +18,18 @@
     text-align: center;
 }
 
+/** Desktop **/
+@media only screen and (min-width: 375px) and (max-width: 1274px){
+    .thankYou h2{
+        font-size: 1.6rem;
+    }
+    
+    .thankYou p{
+        font-size: 15px;
+    }
+    
+}
+
 /** Mobile **/
 
 @media only screen and (min-width: 375px) and (max-width: 765px) {
@@ -31,11 +43,4 @@
         width: 50px;
     }
 
-    .thankYou h2{
-        font-size: 1.6rem;
-    }
-
-    .thankYou p{
-        font-size: 15px;
-    }
 }

@@ -40,6 +40,17 @@
         flex-direction: column;
         gap: 1.5rem;
     }
+
+    #form1 input::placeholder{
+        color: hsl(231, 11%, 63%);
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1274px){
+    #form1  label, #form1  input{
+        font-size: 15px;
+    }
 }
 
 /** Mobile **/
@@ -52,5 +63,10 @@
 
     #form1 input{
         border-radius: 5px;
+    }
+
+    #form1 input::placeholder{
+        color: hsl(231, 11%, 63%);
+        font-size: 13px;
     }
 }

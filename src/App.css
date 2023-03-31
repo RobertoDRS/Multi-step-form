@@ -37,7 +37,12 @@ div.checked, label.checked{
         flex-direction: column;
         gap: 3rem;
     }
+}
 
+@media only screen and (min-width: 765px) and (max-width: 1274px){
+    p, span, h3{
+        font-size: 0.62rem;
+    }
 }
 
 /** Mobile **/
