@@ -33,7 +33,7 @@ import { FormContext } from '../context/form'
             
 
                 <div className='form2Radios'>
-                    <label htmlFor="monthly" className={formState.billing === 'Monthly' && 'labelBilling'} 
+                    <label htmlFor="monthly" className={formState.billing === 'Monthly' ? 'labelBilling': ''} 
                     style={{marginRight:'20px'}}>Mensal</label>
 
                     <div className='form2Radios-sec'>
@@ -46,7 +46,7 @@ import { FormContext } from '../context/form'
                         defaultChecked={checkedYearly}/>
                     </div>
                     
-                    <label htmlFor="yearly" className={formState.billing === 'Yearly' && 'labelBilling'} 
+                    <label htmlFor="yearly" className={formState.billing === 'Yearly' ? 'labelBilling': ''} 
                     style={{marginLeft:'20px'}}>Anual</label>
                 </div>
 
