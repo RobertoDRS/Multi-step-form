@@ -16,7 +16,7 @@ header p{
 
 /** Desktop **/
 
-@media only screen and (min-width: 375px) and (max-width: 1274px){
+@media only screen and (max-width: 1274px){
     
     header h2{
         font-size:1.6rem;

@@ -20,7 +20,7 @@ aside.steps{
 
 /** Mobile **/
 
-@media only screen and (min-width: 375px) and (max-width: 765px) {
+@media only screen and (max-width: 765px) {
     aside.steps{
         width: 100%;
         flex-direction: row;

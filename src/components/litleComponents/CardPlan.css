@@ -35,13 +35,13 @@ div.cardPlan img{
 
 /** Desktop **/
 
-@media only screen and (min-width: 375px) and (max-width: 1274px){
+@media only screen and (max-width: 1274px){
     .divSec-cardPlan span{
         font-size: 15px;
     }
     .cardPlan{
         width: 100%;
-        padding: 1.1rem;
+        padding: 0.8rem;
     }
     .cardPlan label{
         display: flex;

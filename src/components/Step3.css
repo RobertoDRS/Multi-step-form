@@ -12,9 +12,15 @@
     }
 }
 
+@media only screen and (min-width: 765px) and (max-width: 1290px){
+    .form3Checks{
+        gap: 0.3rem;
+    }
+}
+
 /** Mobile **/
 
-@media only screen and (min-width: 375px) and (max-width: 765px) {
+@media only screen and (max-width: 765px) {
 
     .form3Checks{
         gap: 0.8rem;
