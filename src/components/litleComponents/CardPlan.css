@@ -29,16 +29,10 @@ div.cardPlan img{
     margin-top: 60px;
 }
 
-.divSec-cardPlan span{
-    font-size: 17px;
-}
-
 /** Desktop **/
 
 @media only screen and (max-width: 1274px){
-    .divSec-cardPlan span{
-        font-size: 15px;
-    }
+    
     .cardPlan{
         width: 100%;
         padding: 0.8rem;

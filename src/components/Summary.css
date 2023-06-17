@@ -1,3 +1,8 @@
+#form4{
+    position: relative;
+    height: 90%;
+}
+
 .form4Div{
     background-color: hsl(217, 100%, 97%);
     border-radius: 10px;
@@ -7,8 +12,7 @@
     gap: 1.2rem;
 }
 
-.form4Div span{
-    font-size: 17px;
+.form4Div span, .spanTotal{
     color: hsl(231, 11%, 63%);
 }
 
@@ -18,70 +22,40 @@
     align-items: center;
 }
 
-
-
 .form4Div-sec div{
     display: flex;
     flex-direction: column;
 }
 
-.marginDiv-1{
-    margin-bottom: 71.5px;
-}
-
-.marginDiv-2{
-    margin-bottom: 111px;
-}
-
-.marginDiv-3{
-    margin-bottom: 150px;
-}
-
-.marginDiv-4{
-    margin-bottom: 189px;
-}
-
-.marginDiv-1 span, .marginDiv-2 span, .marginDiv-3 span, .marginDiv-4 span{
-    font-size: 17px;
-}
-
-span.spanTotal{
-    font-size: 1.3rem
-}
-
 /** Desktop **/
-@media only screen and (min-width: 1700px) and (max-width: 1920px){
-    .marginDiv-1{
-        margin-bottom: 10.5rem;
-    }
-
-    .marginDiv-2{
-        margin-bottom: 12.9rem;
-    }
-
-    .marginDiv-3{
-        margin-bottom: 15.4rem;
-    }
-
-    .marginDiv-4{
-        margin-bottom: 17.8rem;
+@media only screen and (min-width: 1900px){
+    #form4{
+        height: 75%;
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1274px){
-    .form4Div span{
-        font-size: 15px;
-    }
 
-    span.spanTotal{
-        font-size: 1.1rem
+@media only screen and (min-width: 1700px){
+    .form4Div{
+        padding: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
     }
 }
-
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+    #form4{
+        height: 80%;
+    }
+}
 
 /** Mobile **/
 
 @media only screen and (max-width: 765px) {
+
+    #form4{
+        position:initial;
+    }
     
     .marginDiv-1, .marginDiv-2, .marginDiv-3, .marginDiv-4{
         margin-bottom: 0;

@@ -7,9 +7,6 @@
     padding: 1rem;
 }
 
-.checkAddOns span{
-    font-size: 17px;
-}
 
 .checkAddOns input[type="checkbox"]{
     -webkit-appearance: none;
@@ -59,11 +56,6 @@
     }
 }
 
-@media only screen and (max-width: 1274px){
-    .checkAddOns span{
-        font-size: 15px;
-    }
-}
 
 @media only screen and (min-width: 765px) and (max-width: 1194px){
     .checkAddOns{
@@ -105,12 +97,6 @@
     }
 }
 
-@media only screen and (max-width: 400px){
-    .checkAddOns span{
-        font-size: 14px;
-    }
-}
-
 @media only screen and (max-width: 381px){
     .checkAddOns-tert{
         width: 90%;
@@ -118,6 +104,16 @@
 
     .checkAddOns-spanPrice{
         width: 40%;
+    }
+}
+
+@media only screen and (max-width: 344px){
+    .checkAddOns-tert{
+        width: 80%;
+    }
+
+    .checkAddOns-spanPrice{
+        width: 55%;
     }
 }
 

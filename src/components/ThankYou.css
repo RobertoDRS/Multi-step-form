@@ -9,25 +9,11 @@
 
 .thankYou h2{
     color: hsl(213, 96%, 18%);
-    font-size: 2rem;
 }
 
 .thankYou p{
-    font-size: 17px;
     color: hsl(231, 11%, 63%);
     text-align: center;
-}
-
-/** Desktop **/
-@media only screen and (max-width: 1274px){
-    .thankYou h2{
-        font-size: 1.6rem;
-    }
-    
-    .thankYou p{
-        font-size: 15px;
-    }
-    
 }
 
 /** Mobile **/

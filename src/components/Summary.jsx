@@ -9,20 +9,17 @@ import { FormContext } from '../context/form'
 
  const Summary = () => {
 
-    const [formState, dispatch] = useContext(FormContext)
+    const [formState] = useContext(FormContext)
 
     const planPrice = formState.plan === 'Arcade' ? 9: formState.plan === 'Advanced' ? 12: 15 
 
-    const marginDiv = (formState.onlineService && formState.customizableProfile && formState.largerStorage) ? 'marginDiv-1':
-    (formState.onlineService && formState.customizableProfile || formState.onlineService && formState.largerStorage ||
-    formState.customizableProfile && formState.largerStorage) ? 'marginDiv-2': (formState.customizableProfile || formState.onlineService || formState.largerStorage) ? 'marginDiv-3': 'marginDiv-4'
 
     return (
         <div className='stepDiv'>
 
             <Header title="Finalização" text="Verifique novamente se tudo está certo antes de confirmar."/>
 
-            <div>
+            <div id="form4">
                 <div className='form4Div'>
                     <div className='form4Div-sec' style={{borderBottom:'1px solid hsl(229, 24%, 87%)', 
                     paddingBottom:'30px'}}>
@@ -57,7 +54,7 @@ import { FormContext } from '../context/form'
                     </div>)}
 
                 </div>
-                <div className={`form4Div-sec ${marginDiv}`} style={{padding:'1.2rem'}}>
+                <div className={`form4Div-sec`} style={{padding:'1.2rem'}}>
                     <span style={{color:'hsl(231, 11%, 63%)'}}>Total({formState.billing === 'Monthly' ? 'por mês': 'por ano' })</span>
                     <span className='spanTotal' style={{color:'hsl(243, 100%, 62%)', fontWeight:'bold'}}>
                         {formState.billing === 'Monthly' ? `R$ ${formState.totalPrice}/mês` : `R$ ${formState.totalPrice * 12}/ano`}

@@ -5,8 +5,8 @@
     align-items: center;
 }
 
-p, span, h3{
-    font-size: 0.82rem;
+p, span, h3, label{
+    font-size: 1rem;
 }
 
 
@@ -19,9 +19,13 @@ p, span, h3{
 }
 
 .divButtons{
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     display: flex;
     justify-content:space-between;
-    margin-top: 50px;
+    width: 100%;
 }
 
 div.checked, label.checked{
@@ -30,19 +34,32 @@ div.checked, label.checked{
 }
  
 /** Desktop **/
-@media only screen and (min-width: 1700px) and (max-width: 1920px){
+@media only screen and (min-width: 2000px){
+
+    p, span, h3, label{
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2000px){
     .stepDiv{
         padding: 2.4rem 5rem;
         display: flex;
         flex-direction: column;
         gap: 3rem;
     }
+
+    p, span, h3, label{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and  (max-width: 1274px) {
+    p, span, h3, label{
+        font-size: 0.9rem;
+    }
 }
 
 @media only screen and (min-width: 1004px) and (max-width: 1274px){
-    p, span, h3{
-        font-size: 0.62rem;
-    }
 
     .stepDiv{
         gap: 1rem;
@@ -77,12 +94,22 @@ div.checked, label.checked{
 
 
     .divButtons{
-        width: 100vw;
+        border-radius: 10px;
         background-color: hsl(231, 100%, 99%);
         padding: 1rem;
         position: absolute;
         bottom: -200px;
-        left: -5.5%;
+        box-sizing:border-box;
     }
 }
 
+@media only screen and (max-width: 380px){
+    .stepDiv{
+        padding: 2.4rem 0.6rem;
+    }
+
+    .divButtons{
+        padding: 1.1rem 0.6rem;
+    }
+
+}

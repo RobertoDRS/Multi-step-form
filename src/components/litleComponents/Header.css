@@ -6,24 +6,11 @@ header{
 
 header h2{
     color: hsl(213, 96%, 18%);
-    font-size:2rem;
 }
 
 header p{
-    font-size:17px;
     color: hsl(231, 11%, 63%);
 }
 
-/** Desktop **/
 
-@media only screen and (max-width: 1274px){
-    
-    header h2{
-        font-size:1.6rem;
-    }
-
-    header p{
-        font-size:15px;
-    }
-}
 

@@ -15,6 +15,26 @@ button#backBtn:hover{
     color: hsl(213, 96%, 18%);
 }
 
+/** Desktop **/
+@media only screen and (min-width: 2000px){
+    button#backBtn{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2000px){
+    button#backBtn{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 1274px){
+    button#backBtn{
+        font-size: 13px;
+    }
+}
+
+
 /** Mobile **/
 
 @media only screen and (max-width: 765px) {

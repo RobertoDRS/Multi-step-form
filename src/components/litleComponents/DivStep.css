@@ -9,6 +9,7 @@ span.number{
     padding: .5rem .7rem;
     color: hsl(0, 0%, 100%);
     font-weight: bold;
+    font-size: 0.82rem;
 }
 
 .divStep-sec{
@@ -16,6 +17,10 @@ span.number{
     flex-direction: column;
     gap: .2rem;
     text-transform: uppercase;
+}
+
+.divStep-sec h3, .divStep-sec span {
+    font-size: 0.82rem;
 }
 
 .divStep-sec h3{
@@ -34,9 +39,41 @@ span.bgAzul{
 }
 
 /** Desktop **/
+
+@media only screen and (min-width: 2000px){
+    .divStep-sec h3, .divStep-sec span {
+        font-size: 1rem;
+    }
+
+    span.number{
+        padding: .5rem .9rem;
+
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 1700px) and (max-width: 2000px){
+    .divStep-sec h3, .divStep-sec span {
+        font-size: 0.9rem;
+    }
+
+    span.number{
+        padding: .5rem .8rem;
+
+        font-size: 0.9rem;
+    }
+}
+
 @media only screen and (min-width: 765px) and (max-width: 1274px){
     .divStep{
         gap: 0.6rem;
+    }
+
+    .divStep-sec h3, .divStep-sec span {
+        font-size: 0.75rem;
+    }
+
+    span.number{
+        font-size: 0.75rem;
     }
 }
 

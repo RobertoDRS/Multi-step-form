@@ -1,3 +1,8 @@
+#form3{
+    position: relative;
+    height: 90%;
+}
+
 .form3Checks{
     display: flex;
     flex-direction: column;
@@ -6,21 +11,37 @@
 }
 
 /** Desktop **/
-@media only screen and (min-width: 1800px) and (max-width: 1920px){
+@media only screen and (min-width: 1900px){
+    #form3{
+        height: 75%;
+    }
+}
+
+@media only screen and (min-width: 1800px){
     .form3Checks{
         gap: 1.5rem;
     }
 }
 
+@media only screen and (min-width: 1600px) and (max-width: 1900px){
+    #form3{
+        height: 80%;
+    }
+}
+
 @media only screen and (min-width: 765px) and (max-width: 1290px){
     .form3Checks{
-        gap: 0.3rem;
+        gap: 0.5rem;
     }
 }
 
 /** Mobile **/
 
 @media only screen and (max-width: 765px) {
+
+    #form3{
+        position:initial;
+    }
 
     .form3Checks{
         gap: 0.8rem;
